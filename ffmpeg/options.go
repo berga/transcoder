@@ -40,6 +40,7 @@ type Options struct {
 	MovFlags              *string           `flag:"-movflags"`
 	HideBanner            *bool             `flag:"-hide_banner"`
 	OutputFormat          *string           `flag:"-f"`
+	PatternType          	*string           `flag:"-pattern_type"`
 	CopyTs                *bool             `flag:"-copyts"`
 	NativeFramerateInput  *bool             `flag:"-re"`
 	InputInitialOffset    *string           `flag:"-itsoffset"`
